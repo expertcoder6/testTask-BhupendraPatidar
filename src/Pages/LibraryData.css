@@ -1,0 +1,40 @@
+.MuiCard-root.library-card{
+    max-width: 300px;
+    background-color: #ebebeb;
+    margin: 50px auto;
+    border: 1px solid #b1b1b1;
+    text-align: left;
+}
+
+.MuiCard-root.library-card .MuiCardContent-root{
+    padding: 20px;
+    width: 200px;
+}
+.library-wrapper label{
+    display: block;
+    margin-bottom: 20px;
+}
+.library-wrapper select,
+.library-wrapper select:focus,
+.library-wrapper select:focus-visible{
+    background: #eee;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #b1b1b1;
+    font-size: 14px;
+}
+
+.library-card .MuiTypography-body2{
+    font-weight: 600;
+}
+.library-card .MuiTypography-subtitle1{
+    margin-right: 10px;
+}
+.library-card .MuiTypography-subtitle2{
+    font-size: 13px;
+}
+.library-wrapper{
+    margin: 30px 0;
+}
